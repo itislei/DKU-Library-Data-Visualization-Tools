@@ -7,63 +7,63 @@
 
 This tutorial introduces how to create, visualize, analyze, and share data-driven interactive maps using ArcGIS Online.
 
-[**Before we start	2**](#before-we-start)
+[Before we start	](#before-we-start)
 
-[Introduction	2](#introduction)
+[Introduction	](#introduction)
 
-[About the tool	2](#about-the-tool)
+[About the tool	](#about-the-tool)
 
-[Datasets	2](#datasets)
+[Datasets	](#datasets)
 
-[What is “spatial analysis” and “geoprocessing”?	2](#what-is-“spatial-analysis”-and-“geoprocessing”?)
+[What is “spatial analysis” and “geoprocessing”?	](#what-is-“spatial-analysis”-and-“geoprocessing”?)
 
-[**Part 1: Building Maps with Data	3**](#part-1:-building-maps-with-data)
+[Part 1: Building Maps with Data	](#part-1:-building-maps-with-data)
 
-[Sign in to ArcGIS Online	3](#sign-in-to-arcgis-online)
+[Sign in to ArcGIS Online	](#sign-in-to-arcgis-online)
 
-[Create a New Map Project	3](#create-a-new-map-project)
+[Create a New Map Project	](#create-a-new-map-project)
 
-[Toolbars	3](#toolbars)
+[Toolbars	](#toolbars)
 
-[Basemap	4](#basemap)
+[Basemap	](#basemap)
 
-[Add Data	5](#add-data)
+[Add Data	](#add-data)
 
-[Structured Table Dataset	6](#structured-table-dataset)
+[Structured Table Dataset	](#structured-table-dataset)
 
-[Geospatial Data File	10](#geospatial-data-file)
+[Geospatial Data File	](#geospatial-data-file)
 
-[Acquire Data from ArcGIS Online	12](#acquire-data-from-arcgis-online)
+[Acquire Data from ArcGIS Online	](#acquire-data-from-arcgis-online)
 
-[Visualize Data	14](#visualize-data)
+[Visualize Data	](#visualize-data)
 
-[Styles	14](#styles)
+[Styles	](#styles)
 
-[Labels	15](#labels)
+[Labels	](#labels)
 
-[Pop-ups	16](#pop-ups)
+[Pop-ups	](#pop-ups)
 
-[Save a Map	17](#save-a-map)
+[Save a Map	](#save-a-map)
 
-[Share a Map	19](#share-a-map)
+[Share a Map	](#share-a-map)
 
-[Export Data	22](#export-data)
+[Export Data	](#export-data)
 
-[**Part 2: Analyzing Data with Maps	25**](#part-2:-analyzing-data-with-maps)
+[Part 2: Analyzing Data with Maps	](#part-2:-analyzing-data-with-maps)
 
-[Tools	25](#tools)
+[Tools	](#tools)
 
-[Join Data	25](#join-data)
+[Join Data	](#join-data)
 
-[Find by Attributes and Locations	32](#find-by-attributes-and-locations)
+[Find by Attributes and Locations	](#find-by-attributes-and-locations)
 
-[Find Closest	37](#find-closest)
+[Find Closest	](#find-closest)
 
-[Extract Data	44](#extract-data)
+[Extract Data	](#extract-data)
 
-[Model Builder	47](#model-builder)
+[Model Builder	](#model-builder)
 
-[**Resources	57**](#resources)
+[Resources	](#resources)
 
 # 
 
@@ -247,29 +247,32 @@ A shapefile is one of the most common geospatial data formats used in GIS, which
 
 3. Make sure “Shapefile” is selected, then click **Next**.
 
+<img width="1344" height="674" alt="image114" src="https://github.com/user-attachments/assets/79dca8b4-5055-41ba-9dd6-4964c8afea1f" />
 
 
 
 4. Name the new layer as **China Province Boundaries**, then click **Create and add to map**.
 
-<img width="383" height="208" alt="image037" src="https://github.com/user-attachments/assets/04b6197a-d1f5-4a94-82bf-31be3fd8932e" />
+<img width="1346" height="677" alt="image115" src="https://github.com/user-attachments/assets/0870c93d-afb9-48cd-9f17-604f16e3f07d" />
 
 
 5. It may take a moment to process. Once completed, a new layer named **China Province Boundaries** will appear in the **Layers** panel. Locate the **China Province Boundaries** layer, click the ellipsis (3-dot) icon next to it, and select **Zoom to layer**.
 
 
-<img width="1028" height="744" alt="image039" src="https://github.com/user-attachments/assets/2718f90a-c725-4194-8585-8dc4f2c17721" />
+<img width="383" height="208" alt="image116" src="https://github.com/user-attachments/assets/066b3d9c-5d86-4c27-a402-9ed41d88b7c9" />
 
 
 6. This will automatically zoom to the area where your data is displayed on the map.
 
 
-<img width="382" height="102" alt="image041" src="https://github.com/user-attachments/assets/7ca3c041-4522-49c0-a008-ab1d3fb86fa7" />
+<img width="1028" height="744" alt="image75" src="https://github.com/user-attachments/assets/ff475502-9edd-4ed5-8d92-857a41216ab0" />
+
 
 
 7. Go back to the **Layers** panel, and click the eye icon to hide the **China Province Boundaries** layer for now.
 
-<img width="234" height="246" alt="image043" src="https://github.com/user-attachments/assets/2588d5f7-0bfc-4789-a7c5-fb301de58a84" />
+<img width="382" height="102" alt="image76" src="https://github.com/user-attachments/assets/1732087b-7369-472e-8c21-af6fd6c48d87" />
+
 
 
 ### **Acquire Data from ArcGIS Online** {#acquire-data-from-arcgis-online}
@@ -278,30 +281,34 @@ Not just a tool, ArcGIS Online is also a rich source of map data, with contribut
 
 1. Go to the contents toolbar, then **Add**, **Browse layers.**
 
-<img width="286" height="268" alt="image045" src="https://github.com/user-attachments/assets/9d46f439-96af-46b9-8412-16096f1a8255" />
+<img width="234" height="246" alt="image77" src="https://github.com/user-attachments/assets/aba653c9-2295-41a1-beac-ca53677cac50" />
 
 
 2. Switch the source from **My content** to **ArcGIS Online**.
 
-<img width="379" height="445" alt="image047" src="https://github.com/user-attachments/assets/7becbcca-dbd2-49fd-905d-cda021ccf076" />
+<img width="286" height="268" alt="image79" src="https://github.com/user-attachments/assets/37912fbe-d485-4c0c-a99c-8ade956d828e" />
+
 
 
 3. Type in the keyword “China province” and press **Enter** on your keyboard.
 
 4. Locate the item **China Province Boundaries** by Esri in the search results, click **\+ Add**.
 
+<img width="379" height="445" alt="image80" src="https://github.com/user-attachments/assets/b4523b4f-5dfb-4d3b-8dac-1272ee5dfe26" />
 
 
 
 5. Use the **Zoom In/Out** tool under the viewing and search toolbar to examine the data in detail.
 
-<img width="458" height="290" alt="image049" src="https://github.com/user-attachments/assets/4d6e40fa-c1c3-4642-ae3d-509a576e649a" />
+
+<img width="458" height="290" alt="image81" src="https://github.com/user-attachments/assets/78ad587e-999e-4504-b9fa-32fb08df0a2a" />
 
 
 
 6. Click **Remove** to delete the layer from your map.
 
-<img width="365" height="168" alt="image051" src="https://github.com/user-attachments/assets/5f992c50-f5f2-42d5-af3d-89d132154582" />
+<img width="365" height="168" alt="image82" src="https://github.com/user-attachments/assets/43f13759-7076-43da-a6de-499874738363" />
+
 
 ## **Visualize Data** {#visualize-data}
 
@@ -309,17 +316,20 @@ Not just a tool, ArcGIS Online is also a rich source of map data, with contribut
 
 1. To customize the appearance of data points, lines, or polygons on the map, first make sure that you have selected the target layer under **Layers**. A blue strip will appear on the left of the selected layer’s title.
 
-![][image28]
+<img width="430" height="263" alt="image84" src="https://github.com/user-attachments/assets/14cc6b70-2405-47dc-a072-57cfd4477ed4" />
+
 
 2. Then, select **Styles** under the editing toolbar and use the settings to adjust the appearance of the data points according to your preference. For best practices in selecting colors or patterns for geospatial data and maps, refer to the [Select Visualization Elements](https://library.dukekunshan.edu.cn/data-visualization/#:~:text=4.%20Select%20Visualization%20Elements) section in the [Data Visualization guide](https://library.dukekunshan.edu.cn/data-visualization/). Click **Done** when the edits are complete. 
 
-![][image29]
+<img width="393" height="171" alt="image23" src="https://github.com/user-attachments/assets/50a2a43a-56d8-4cd0-8c72-8e207bfd722b" />
+
 
 ### **Labels** {#labels}
 
 1. You can configure labels for a map layer. To do so, first, make sure that you have selected the target layer under **Layers**. A blue strip will appear on the left of the selected layer’s title.
 
-![][image30]
+<img width="394" height="344" alt="image83" src="https://github.com/user-attachments/assets/0087abba-7597-4752-8c57-28eb056c2690" />
+
 
 2. Next, select **Labels** under the editing toolbar to start editing. Make sure you toggle on **Enable labels** and select **Name** field as the **Label field** to show the name of each province (since we turned them off in the basemap). You can also adjust the settings to customize their look.
 
