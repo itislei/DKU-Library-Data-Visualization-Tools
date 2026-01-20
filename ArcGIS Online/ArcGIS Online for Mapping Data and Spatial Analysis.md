@@ -7,7 +7,7 @@
 
 This tutorial introduces how to create, visualize, analyze, and share data-driven interactive maps using ArcGIS Online.
 
-[Before we start	](#before-we-start)
+[Before we start	]
 
 [Introduction	](#introduction)
 
