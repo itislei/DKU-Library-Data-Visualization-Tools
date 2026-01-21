@@ -14,7 +14,7 @@ This tutorial introduces how to create, visualize, analyze, and share data-drive
 
 - [Datasets	](#datasets)
 
-- [What is “spatial analysis” and “geoprocessing”?	](#what-is-“spatial-analysis”-and-“geoprocessing”?)
+- [What is “spatial analysis” and “geoprocessing”?	](#what-is-spatial-analysis-and-geoprocessing)
 
 **[Part 1: Building Maps with Data](#part-1-building-maps-with-data)**
 
@@ -68,7 +68,7 @@ This tutorial introduces how to create, visualize, analyze, and share data-drive
 
 ## Before we start
 
-## **Introduction** {#introduction}
+## Introduction
 
 In this tutorial, we will use China’s airport location dataset and provincial boundary dataset to explore the distribution of airports across provinces in China. DKU members may download the original dataset from CnOpenData through [DKU Only E-Resources](https://library.dukekunshan.edu.cn/academic-databases/) by following the instructions.
 
@@ -82,18 +82,18 @@ Tasks covered in this tutorial include:
 By the end of this tutorial, you will be able to use ArcGIS Online to create a provincial-level map of China showing the geographic distribution of airports.
 
 
-## **About the tool** {#about-the-tool}
+## About the tool
 
 ArcGIS Online will be used in the tutorial. Visit the [GIS guide](https://library.dukekunshan.edu.cn/geographic-information-system-gis/) for more information about the tool.
 
-## **Datasets** {#datasets}
+## Datasets
 
 The sample datasets are derived from [CnOpenData](https://www.cnopendata.com/) and have been cleaned for the purpose of demonstration. Download the sample datasets below:
 
 * [China Airport.csv](https://duke.box.com/shared/static/ycwqlrka3797epk9m0p3svmsocj8fj3c.csv)  
 * [China Province Boundary.zip](https://duke.box.com/s/7e2ksv0f7gw156wit9zjxw0stwxo59ws)
 
-## **What is “spatial analysis” and “geoprocessing”?** {#what-is-“spatial-analysis”-and-“geoprocessing”?}
+## What is “spatial analysis” and “geoprocessing”?
 
 The second part of this tutorial introduces how to use geoprocessing tools to perform spatial analysis. To help ground these concepts, here is a brief overview:
 
@@ -101,17 +101,17 @@ The second part of this tutorial introduces how to use geoprocessing tools to pe
 
 **Geoprocessing** refers to the set of operations used to manipulate, analyze, and manage geographic data. These operations include overlaying layers, buffering, clipping, dissolving, intersecting, and converting data formats. In GIS, geoprocessing tools help model spatial relationships, create new datasets from existing ones, and automate complex workflows.
 
-# **Part 1: Building Maps with Data**  {#part-1-building-maps-with-data}
+# Part 1: Building Maps with Data
 
 In Part 1, we will introduce the basics of ArcGIS Online, including how to import and load datasets, visualize your data on a map, and save or export your work.
 
-## **Sign in to ArcGIS Online** {#sign-in-to-arcgis-online}
+## Sign in to ArcGIS Online
 
 Follow the instructions in [Signing in to ArcGIS Online](https://library.dukekunshan.edu.cn/signing-in-to-arcgis/) to sign in to [ArcGIS Online](https://www.arcgis.com/index.html). 
 
-## **Create a New Map Project** {#create-a-new-map-project}
+## Create a New Map Project
 
-### **Toolbars** {#toolbars}
+### Toolbars
 
 ---
 
@@ -132,7 +132,7 @@ Follow the instructions in [Signing in to ArcGIS Online](https://library.dukekun
 
 
 
-### **Basemap** {#basemap}
+### Basemap
 
 ---
 
@@ -168,14 +168,14 @@ Follow the instructions in [Signing in to ArcGIS Online](https://library.dukekun
 
 
 
-## **Add Data** {#add-data}
+## Add Data
 
 There are multiple ways to add data to a map project in ArcGIS Online \- you can add datasets with location data, upload images, connect to external sources via URL, or create your own sketches directly in the map.
 
 ArcGIS Online supports importing data from structured table formats such as comma-separated values files (.csv), Excel files (.xslx) with location fields (e.g., coordinates, addresses), and geospatial file formats including shapefile (.shp), GeoJSON, KML (.kml), and GeoPackage (.gpkg), and Geodatabase (.gdb).
 
 
-### **Structured Table Dataset** {#structured-table-dataset}
+### Structured Table Dataset
 
 [China Airport.csv](https://duke.box.com/shared/static/ycwqlrka3797epk9m0p3svmsocj8fj3c.csv) is a data table containing information about every airport in China, including their names, addresses, coordinates, and year of construction. Let’s map this data on the map\! Before we begin, make sure you have downloaded the file to your computer.
 
@@ -243,7 +243,7 @@ ArcGIS Online supports importing data from structured table formats such as comm
 
 
 
-### **Geospatial Data File** {#geospatial-data-file}
+### Geospatial Data File
 
 A shapefile is one of the most common geospatial data formats used in GIS, which stores geographic features (such as points, lines, or polygons) along with their associated attributes. Despite its name, a shapefile is actually a collection of several related files (e.g., .shp, .shx, .dbf) that must stay together for the data to function properly. ArcGIS Online can only read a shapefile directly from a zipped folder, which is why you should upload the .zip file without unzipping it.
 
@@ -300,7 +300,7 @@ A shapefile is one of the most common geospatial data formats used in GIS, which
 
 
 
-### **Acquire Data from ArcGIS Online** {#acquire-data-from-arcgis-online}
+### Acquire Data from ArcGIS Online
 
 Not just a tool, ArcGIS Online is also a rich source of map data, with contributions shared by researchers worldwide. For example, to understand where airports are located within provinces, we need to add a China province layer to the map, which can be directly imported from the ArcGIS Online database.
 
@@ -342,9 +342,9 @@ Not just a tool, ArcGIS Online is also a rich source of map data, with contribut
 
 
 
-## **Visualize Data** {#visualize-data}
+## Visualize Data
 
-### **Styles** {#styles}
+### Styles
 
 1. To customize the appearance of data points, lines, or polygons on the map, first make sure that you have selected the target layer under **Layers**. A blue strip will appear on the left of the selected layer’s title.
 
@@ -359,7 +359,7 @@ Not just a tool, ArcGIS Online is also a rich source of map data, with contribut
 
 
 
-### **Labels** {#labels}
+### Labels
 
 1. You can configure labels for a map layer. To do so, first, make sure that you have selected the target layer under **Layers**. A blue strip will appear on the left of the selected layer’s title.
 
@@ -375,7 +375,7 @@ Not just a tool, ArcGIS Online is also a rich source of map data, with contribut
 
 ---
 
-### **Pop-ups** {#pop-ups}
+### Pop-ups
 
 1. Click on a random data point on the map — this will trigger a pop-up displaying all associated information for that specific point.
 
@@ -398,7 +398,7 @@ Not just a tool, ArcGIS Online is also a rich source of map data, with contribut
 
 
 
-## **Save a Map** {#save-a-map}
+## Save a Map
 
 ArcGIS Online does **not** save your map project automatically, so be sure to manually save it each time before quitting the page.
 
@@ -429,7 +429,7 @@ ArcGIS Online does **not** save your map project automatically, so be sure to ma
 
 
 
-## **Share a Map** {#share-a-map}
+## Share a Map
 
 One advantage of using ArcGIS Online is that it allows easy sharing of map projects. With an institutional license, DKU members can share their projects with Duke and DKU users, make them public, or keep them private for self-view only.
 
@@ -481,7 +481,7 @@ You can also set up a group to make your project or items visible or editable to
 
 
 
-## **Export Data** {#export-data}
+## Export Data
 
 For each layer created or added to a map project, you can export it as a shapefile to open in other GIS software or store on your local computer. In this tutorial, we will use the airport layer as an example.
 
@@ -533,7 +533,7 @@ For each layer created or added to a map project, you can export it as a shapefi
 
 
 
-# **Part 2: Analyzing Data with Maps** {#part-2-analyzing-data-with-maps}
+# Part 2: Analyzing Data with Maps
 
 In Part 2, we will use some geoprocessing tools in ArcGIS Online to gain insights from China’s airport and province boundary datasets. By the end, you will be able to use maps to answer these questions:
 
@@ -543,9 +543,9 @@ In Part 2, we will use some geoprocessing tools in ArcGIS Online to gain insight
 4. How to export the layer into a format that is shareable and downloadable (e.g., Shapefile, CSV)?  
 5. Which provinces have more than 10 airports?
 
-## **Tools** {#tools}
+## Tools
 
-### **Join Data** {#join-data}
+### Join Data
 
 The first question “How are airports distributed across the provinces of the country? Which provinces have higher or lower densities of airports?” focuses on the distribution and density of airport locations across the country. 
 
@@ -671,7 +671,7 @@ Since the two datasets we need to answer this question are currently separate, w
 
 
 
-### **Find by Attributes and Locations** {#find-by-attributes-and-locations}
+### Find by Attributes and Locations
 
 Let’s move to the second question: What and where are the airports in Jiangsu Province?
 
@@ -769,7 +769,7 @@ To answer this, we can use the **Find by Attributes and Location** tool. This to
 
 
 
-### **Find Closest** {#find-closest}
+### Find Closest
 
 The third question we want to solve is: what are the 3 closest airports to DKU. To do that, we will first create a new layer with DKU campus’s location data.
 
@@ -886,7 +886,7 @@ The third question we want to solve is: what are the 3 closest airports to DKU. 
 
 
 
-### **Extract Data** {#extract-data}
+### Extract Data
 
 Lastly, the analysis tools allow exporting layers in CSV, file geodatabase, shapefile, and KML. Let’s say we want to export the data table attached to our closest airports to the DKU layer in a table csv format. We already know how to view the data table in the map view, but how to download that in a csv format?
 
@@ -962,7 +962,7 @@ Lastly, the analysis tools allow exporting layers in CSV, file geodatabase, shap
 
 
 
-## **Model Builder** {#model-builder}
+## Model Builder
 
 While we just demonstrated how to answer multiple questions by running different analysis tools step by step, there is a way to streamline the entire process without executing each tool manually \- that’s **Model Builder**.
 
@@ -1132,7 +1132,7 @@ In this demo, we will answer this question: which provinces in China have more t
 
 
 
-# **Resources** {#resources}
+# Resources
 
 ArcGIS Online offers a wide range of tools for visualizing and analyzing geospatial data, and this tutorial only covers some of them. You are encouraged to continue exploring and experimenting with the tool. For further learning, the following resources are recommended:
 
