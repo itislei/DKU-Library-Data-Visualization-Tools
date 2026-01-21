@@ -66,7 +66,7 @@ This tutorial introduces how to create, visualize, analyze, and share data-drive
 
 # 
 
-## Before we start
+# Before we start
 
 ## Introduction
 
