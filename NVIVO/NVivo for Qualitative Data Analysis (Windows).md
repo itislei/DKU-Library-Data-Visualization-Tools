@@ -9,13 +9,13 @@ This 1.5-hour tutorial introduces how to conduct qualitative data analysis using
 
 [Before we start	](#before-we-start)
 
-[Introduction	](#introduction)
+ - [Introduction	](#introduction)
 
-[About the tool	](#about-the-tool)
+ - [About the tool	](#about-the-tool)
 
-[Setup	](#setup)
+ - [Setup	](#setup)
 
-[Datasets	](#datasets)
+ - [Datasets	](#datasets)
 
 [Before we started	](#before-we-started)
 
@@ -23,49 +23,49 @@ This 1.5-hour tutorial introduces how to conduct qualitative data analysis using
 
 [Import Files	](#import-files)
 
-[Files	](#files)
+ - [Files	](#files)
 
-[NCapture	](#ncapture)
+ - [NCapture	](#ncapture)
 
 [Text Coding	](#text-coding)
 
-[Deductive Coding	](#deductive-coding)
+ - [Deductive Coding	](#deductive-coding)
 
-[Inductive Coding	](#inductive-coding)
+ - [Inductive Coding	](#inductive-coding)
 
-[Mixed Coding	](#mixed-coding)
+ - [Mixed Coding	](#mixed-coding)
 
-[Parent & Child Code	](#parent-&-child-code)
+ - [Parent & Child Code	](#parent--child-code)
 
-[Uncoding	](#uncoding)
+ - [Uncoding	](#uncoding)
 
-[Highlighter & Coding Stripes	](#highlighter-&-coding-stripes)
+[Highlighter & Coding Stripes	](#highlighter--coding-stripes)
 
-[Memos & Annotation	](#memos-&-annotation)
+[Memos & Annotation	](#memos--annotation)
 
 [Image Coding	](#image-coding)
 
 [Save the Project	](#save-the-project)
 
-[Audio & Video Coding	](#audio-&-video-coding)
+[Audio & Video Coding	](#audio--video-coding)
 
-[Case Classification & Cases	](#case-classification-&-cases)
+[Case Classification & Cases	](#case-classification--cases)
 
 [Query	](#query)
 
-[Word Frequency Query	](#word-frequency-query)
+ - [Word Frequency Query	](#word-frequency-query)
 
-[Text Search Query	](#text-search-query)
+ - [Text Search Query	](#text-search-query)
 
-[Matrix Coding Query	](#matrix-coding-query)
+ - [Matrix Coding Query	](#matrix-coding-query)
 
 [Export Codes	](#export-codes)
 
-[Code List	](#code-list)
+ - [Code List	](#code-list)
 
-[Codebook	](#codebook)
+ - [Codebook	](#codebook)
 
-[Individual Code	](#individual-code)
+ - [Individual Code	](#individual-code)
 
 [Resources	](#resources)
 
@@ -126,7 +126,7 @@ Download the sample datasets: [Workshop\_Files.zip](https://duke.box.com/s/91jya
 <img width="846" height="295" alt="image" src="https://github.com/user-attachments/assets/81b23c69-c8e4-4bbb-8737-312690f63e89" />
 
 
-# **Create a Project** {#create-a-project}
+# **Create a Project**
 
 NVivo projects are saved **locally** on your computer. They are not automatically stored or synced to any cloud space, so remember to back up your files regularly.
 
@@ -514,7 +514,7 @@ NVivo allows analyzing visual data by selecting and coding specific areas within
 <img width="821" height="460" alt="image" src="https://github.com/user-attachments/assets/b29169e5-cea4-4dc3-bce0-b4a9eb251bcd" />
 
 
-# **Save the Project** {#save-the-project}
+# **Save the Project**
 
 1. During your work, the **Save Reminder** pop-up will appear periodically to remind you about the saving. Click **Yes** to confirm.
 
@@ -708,150 +708,185 @@ Word frequency query allows you to identify and analyze the most frequently used
 
 5. Set the “Display Words” field to 50, and keep the “Minimum Word Length” field set to 3\.
 
+<img width="825" height="593" alt="image" src="https://github.com/user-attachments/assets/f4a9307c-d1b5-49a9-9d2c-335c55dd7282" />
 
 
 6. The **Grouping** option helps identify and organize similar or related terms in your text data to varying degrees. Same stem means words that share the same root or base form \- for example, talk, talking, talks, and talked all share the stem “talk.” Now, drag the bar to the second level, which groups words by the same stem, and click **Next**.
 
-![][image100]
+<img width="794" height="566" alt="image" src="https://github.com/user-attachments/assets/f4a111d9-5d40-4971-bcf9-5118a456bf6e" />
+
 
 7. For the query scope, check **Selected Items**, then click on **Select…**
 
-**![][image101]**
+<img width="796" height="570" alt="image" src="https://github.com/user-attachments/assets/cba6959a-7434-4426-8b94-a310986c2f11" />
+
 
 8. In the pop-up, expand **Files**, then click on **Interviews** to select everything in the folder. Next, unselect 2 videos and 1 audio files (with different icons) so that only text transcripts should be selected for our search. Click **OK**.
 
-![][image102]
+<img width="979" height="431" alt="image" src="https://github.com/user-attachments/assets/ace40832-9b92-4f54-bb75-5cb36ea42626" />
+
 
 9. Click **Next**.
 
-![][image103]
+<img width="814" height="584" alt="image" src="https://github.com/user-attachments/assets/219f9d17-3fd9-4bd7-981a-ebd6654498aa" />
+
 
 10. The last window asks you if you just want to run the query once or if you want to save it in your project so that you can later revisit. Let’s leave it as defaults for now and click **Run**.
 
-![][image104]
+<img width="814" height="587" alt="image" src="https://github.com/user-attachments/assets/9bde35a7-11ad-4990-91b4-bf7f99480542" />
+
 
 11. Now we should see the results of our query.
 
-![][image105]
+<img width="771" height="613" alt="image" src="https://github.com/user-attachments/assets/90d0aff0-27e7-4a3c-b9ec-45de1c264ffc" />
+
 
 12. Double-click on the word **people**, you will see the location of where the **people** appeared across all of the selected text transcripts.
 
-![][image106]
+<img width="834" height="559" alt="image" src="https://github.com/user-attachments/assets/89780b9d-4357-4b93-8c98-54d2c664466c" />
+
 
 13. Go back to the **Word Frequency Query Results**, and you will find out that words like ‘a’, ‘and’, ‘the’ are ignored \- these words are treated as **stop words**, which are those really common words and won’t be useful for analysis. When you see a word in the list and you don’t think they’d be helpful, for example, the word ‘things’, you can right-click on ‘things’ and select **Add to Stop Words List**.
 
-![][image107]
+<img width="534" height="221" alt="image" src="https://github.com/user-attachments/assets/9514dd16-e471-4074-8f4b-8bf8f0b515ed" />
+
 
 14. To check or reset the Stop Words List, go to **File** menu, click on **Project Properties**.
 
-![][image108]
+<img width="454" height="218" alt="image" src="https://github.com/user-attachments/assets/6f170f9e-f6bb-4f5f-a845-87c4e9eef56c" />
+
 
 15. Under the **General** tab, you can select text content languages. The default is English (US), but you can switch to other languages. Then, click on **Stop Words…** to see the current list in use. 
 
-![][image109]
+<img width="725" height="550" alt="image" src="https://github.com/user-attachments/assets/995ae5b2-d003-4a84-94c8-20aa8dff1b1b" />
+
 
 16. From here, you can add stop words manually, or reset the list. But for now, let’s click **Cancel**, then **Cancel** again to close the two pop-ups and return back to the result list.
 
-![][image110]
+<img width="723" height="558" alt="image" src="https://github.com/user-attachments/assets/350641cf-979d-494d-a6a8-a5b3f1b50653" />
+
 
 17. Now let's export the list since we only selected **Run the query for once** in the past step. To do that, right-click on any word in the list, and select **Export List**. 
 
-![][image111]
+<img width="873" height="556" alt="image" src="https://github.com/user-attachments/assets/af2d8ee4-59e0-4cae-8ef4-cf7e9df26724" />
+
 
 18. Browse to the workshop folder, give the file a name or keep the default and click on **Save**.
 
-![][image112]
+<img width="788" height="570" alt="image" src="https://github.com/user-attachments/assets/7c777ecd-3799-4732-a4d6-360b186a59c0" />
+
 
 19. NVivo provides several visualization options for word frequency results. For example, click **Word Cloud** in the side tabs to view your results as a cloud.
 
-![][image113]
+<img width="801" height="533" alt="image" src="https://github.com/user-attachments/assets/497663fd-cb7c-42f6-8772-b3329fba8bd5" />
+
 
 20. Under the **Word Frequency Query** menu, you can choose to use another color palette and font style.
 
-![][image114]
+<img width="719" height="172" alt="image" src="https://github.com/user-attachments/assets/86311481-b2f2-40bd-91e2-9efea7e4e60b" />
+
 
 21. Right-click on the visual and select **Export Word Cloud** to save the word cloud in your computer.
 
-![][image115]
+<img width="602" height="309" alt="image" src="https://github.com/user-attachments/assets/615aab22-7ab5-4933-a142-614a7d132f83" />
+
 
 22. Try out the **Tree Map** to see block-sized proportions by term.
 
-![][image116]
+<img width="787" height="579" alt="image" src="https://github.com/user-attachments/assets/095785dc-8024-48a7-9801-a7192379b713" />
+
 
 23. Next, try out the **Cluster Analysis** to view relationships between terms.
 
-![][image117]
+<img width="800" height="631" alt="image" src="https://github.com/user-attachments/assets/6a596f2e-fafb-41b1-b682-43b594f7541a" />
+
 
 24. Close the query to return to the main workspace for now.
 
-![][image118]
+<img width="775" height="168" alt="image" src="https://github.com/user-attachments/assets/264be9c2-3507-4da3-afba-844eaeb5df1e" />
 
-## **Text Search Query** {#text-search-query}
+
+## **Text Search Query** 
 
 Text Search Queries allow you to search for specific words or phrases across your project items.
 
 1. Go to the **Explore** menu and select **Text Search Query**.
 
-![][image119]
+<img width="558" height="189" alt="image" src="https://github.com/user-attachments/assets/da9cad72-c45a-4e77-9901-e11c4f91f04a" />
+
 
 2. Keep the search scope as **Files & Externals** \- this includes all imported files in your project. In the search box, enter **water**, and drag the slider to **With stemmed words**.
 
-![][image120]
+<img width="979" height="264" alt="image" src="https://github.com/user-attachments/assets/9cbd7e4c-245d-4043-bb74-b5b2e563dc63" />
+
 
 3. Click **Run Query**.
 
-![][image121]
+<img width="979" height="264" alt="image" src="https://github.com/user-attachments/assets/828a3d29-67c9-405f-b959-8ce42736eb65" />
+
 
 4. A list of files containing the word **water** and its stemmed forms will appear. Double-click **Charles** to view the details.
 
-![][image122]
+<img width="795" height="593" alt="image" src="https://github.com/user-attachments/assets/c3ed0a6f-b138-4f47-90f4-08d8dd12e1ea" />
+
 
 5. In Charles’s interview transcript, you will see the term **water** highlighted.
 
-![][image123]
+<img width="882" height="549" alt="image" src="https://github.com/user-attachments/assets/e86a6981-e6b5-4443-adfe-c5520d26e09e" />
+
 
 6. We can store the results of this query as a new code. To do so, go back to the **Text Search Query – Results Preview** tab and click **Save Results…**. 
 
-![][image124]
+<img width="979" height="264" alt="image" src="https://github.com/user-attachments/assets/7019d7a3-cc31-4183-bd23-8cdf5c7e6302" />
+
 
 7. In the pop-up, click **Select** next to the **Location** field. 
 
-![][image125]
+<img width="755" height="361" alt="image" src="https://github.com/user-attachments/assets/bf524f2c-721e-43e8-9291-7a71aa392e03" />
+
 
 8. Choose **Codes**, then click **OK**.
 
-![][image126]
+<img width="500" height="483" alt="image" src="https://github.com/user-attachments/assets/6d192b89-e79d-4e92-aa9c-0979882fcdd8" />
+
 
 9. Rename the **Name** field to **Water**, and click **OK** again.
 
-![][image127]
+<img width="616" height="296" alt="image" src="https://github.com/user-attachments/assets/c60eb100-64e0-48e2-a621-4a1bf1e7df1d" />
+
 
 10. Go to **Codes** in the navigation view. You will see a new code named **Water**, showing the corresponding files and reference counts from the query.
 
-![][image128]
+<img width="798" height="350" alt="image" src="https://github.com/user-attachments/assets/03f071b5-7ff1-4b85-a267-10a88140c254" />
+
 
 11. If your search phrase contains multiple words, make sure to enclose it in quotation marks (“”). Otherwise, NVivo will treat each word as a separate search term. For example, enter “salt water” in the search box and click **Run Query** again.  
     * For more tips about building search query, visit [Text Search Query](https://help-nv.qsrinternational.com/14/win/Content/queries/text-search-query.htm) page.
 
-![][image129]
+<img width="979" height="371" alt="image" src="https://github.com/user-attachments/assets/14ade321-edd5-4164-8c85-ea39a1424731" />
+
 
 12. Let’s say you want to save this query for future use. To do so, click **Save Criteria…**.
 
-![][image130]
+<img width="979" height="223" alt="image" src="https://github.com/user-attachments/assets/f31aa46b-af3d-4b81-91bf-9ec021e75030" />
+
 
 13. Name the query as **Salt Water**, and click **OK**.
 
-![][image131]
+<img width="755" height="687" alt="image" src="https://github.com/user-attachments/assets/6d9349e3-1867-47c5-b226-d57e5e5a4523" />
+
 
 14. Then, close the query tab.
 
-![][image132]
+<img width="833" height="172" alt="image" src="https://github.com/user-attachments/assets/ea32b86c-d50d-49d9-8df3-e54beb354827" />
+
 
 15. Go to **Queries** in the navigation menu. Under **Query Criteria**, you can find **Salt Water** in the list. Double-click **Salt Water** to reopen the query we just saved.
 
-![][image133]
+<img width="979" height="364" alt="image" src="https://github.com/user-attachments/assets/b27d3479-947b-4c45-ab8f-1391f57f97ca" />
 
-## **Matrix Coding Query** {#matrix-coding-query}
+
+## **Matrix Coding Query**
 
 Matrix Coding Query allows you to compare coding across multiple dimensions, such as codes, cases, or attributes, to identify patterns and relationships in your data. The results are displayed as a matrix table, where rows typically represent cases or participants and columns represent codes or themes. Each cell shows the number of references or the amount of coding coverage where the two dimensions intersect. 
 
@@ -859,123 +894,149 @@ For example, we can look at attitudes expressed by different interviewees based 
 
 1. Go to the **Explore** menu and click **Matrix Coding Query**.
 
-![][image134]
+<img width="625" height="213" alt="image" src="https://github.com/user-attachments/assets/4976dd3e-f681-48f5-a1fe-2186306017f9" />
+
 
 2. Under **Cases**, open **People**. In the list view, click the **\+** icon next to **Interview Participants** to expand the name list.
 
-![][image135]
+<img width="893" height="665" alt="image" src="https://github.com/user-attachments/assets/d7f4c676-12d4-4cd9-a48f-8f4650a6eb77" />
+
 
 3. Select all participant names by dragging your cursor over them, then drag the selection into the **Rows** box.
 
-![][image136]
+<img width="979" height="533" alt="image" src="https://github.com/user-attachments/assets/78df278e-1803-4a58-89de-667d624b168f" />
+
 
 4. Next, under **Codes**, expand **Attitude** by clicking the **\+** icon.
 
-![][image137]
+<img width="933" height="576" alt="image" src="https://github.com/user-attachments/assets/2c76e8bf-356c-46c0-93ab-f9271588c05a" />
+
 
 5. Select all items under the **Attitudes** code and drag them into the **Columns** box.
 
-![][image138]
+<img width="979" height="534" alt="image" src="https://github.com/user-attachments/assets/12f7ee13-7cc8-46b9-bb32-8c473e13a24c" />
+
 
 6. Make sure the search scope is set to **Files & Externals**, then click **Run Query**.
 
-![][image139]
+<img width="969" height="345" alt="image" src="https://github.com/user-attachments/assets/30c32bf6-17d2-427d-9aa4-eae930b08636" />
+
 
 7. A matrix table will appear, showing the number of times participants mentioned words related to each attitude.
 
-![][image140]
+<img width="964" height="688" alt="image" src="https://github.com/user-attachments/assets/6256e2c0-d2c3-4a04-8828-d9477bc8c3f7" />
+
 
 8. At the top-left of the page, click the **purple gradient palette** icon to apply color coding for easier visualization.
 
-![][image141]
+<img width="921" height="657" alt="image" src="https://github.com/user-attachments/assets/a315710d-5f74-4313-820e-ef00eab89568" />
+
 
 9. The table currently shows the total count of files where participants mentioned each attitude. To change the view, right-click anywhere on the table, select **Cell Content**, **Words Coded**.
 
-![][image142]
+<img width="979" height="387" alt="image" src="https://github.com/user-attachments/assets/54cb56d6-7baf-4fad-b9c8-402e3858b8bd" />
+
 
 10. This view displays the total count of coded words for each participant and attitude.
 
-![][image143]
+<img width="830" height="379" alt="image" src="https://github.com/user-attachments/assets/346728cc-becd-4d59-98ae-ec01d47b8fc5" />
+
+
 
 11. Try another view: right-click again, choose **Cell Content**, **Coding Presence**.
 
-![][image144]
+<img width="943" height="368" alt="image" src="https://github.com/user-attachments/assets/4f8ca574-8d80-4e10-8c04-0249b0bea03c" />
+
 
 12. The table now shows **Yes** or **No**, indicating whether a participant mentioned that attitude or not.
 
-![][image145]
+<img width="837" height="383" alt="image" src="https://github.com/user-attachments/assets/1c53013b-d784-4b74-af3c-c2d137625d9b" />
+
 
 13. To improve readability, right-click once more, select **Cell Shading**, **Green-Yellow-Red**.
 
-![][image146]
+<img width="942" height="351" alt="image" src="https://github.com/user-attachments/assets/bf75f79b-6dd3-4713-b76b-da7db7649b85" />
+
 
 14. The table now shows **Yes** in green and **No** in red.
 
-![][image147]
+<img width="776" height="352" alt="image" src="https://github.com/user-attachments/assets/e134fad0-162b-4af1-bd00-2abe128d9106" />
+
 
 15. You can select other visualization. Let’s click on the **Chart** tab to explore this visualization.
 
-![][image148]
+<img width="944" height="413" alt="image" src="https://github.com/user-attachments/assets/9fdee341-b13e-4a9b-ad9c-731a21f05411" />
+
 
 16. While 3D visualizations may look appealing, they can distort data interpretation and obscure important details. For clearer and more accurate results, consider exporting the query data and visualizing it using dedicated tools. See the [Data Visualization](https://library.dukekunshan.edu.cn/data-visualization/) guide for more information.
 
 17. When finished, close the query tab to return to the main workspace.
 
-![][image149]
+<img width="861" height="188" alt="image" src="https://github.com/user-attachments/assets/b3e5dbfa-b4b1-4308-9671-915071f28676" />
 
-# **Export Codes** {#export-codes}
+
+# **Export Codes** 
 
 When your analysis is complete, you can export your codes from NVivo in various formats \- as a code list, a codebook, or individual code files.
 
-## **Code List** {#code-list}
+## **Code List** 
 
 1. Go to **Codes** under **Coding** and make sure the list of codes is open.
 
 2. From the **Share** menu, select **Export**, **Export List**.
 
-![][image150]
+<img width="873" height="458" alt="image" src="https://github.com/user-attachments/assets/5599bfec-9fae-44a7-a019-c7bbb1a0bd08" />
+
 
 3. Keep the default file name (**Codes**), choose your workshop folder as the save location, and click **Save**.
 
-![][image151]
+<img width="857" height="632" alt="image" src="https://github.com/user-attachments/assets/4fe559e2-5bcc-4b7c-b6d5-18e8c39f2101" />
+
 
 4. Open the **Codes.xlsx** file in your workshop folder. You should see a list of all codes displayed in NVivo’s code list.
 
-![][image152]
+<img width="979" height="506" alt="image" src="https://github.com/user-attachments/assets/435af290-3549-4fe5-9195-b763bbcf623d" />
 
-## **Codebook** {#codebook}
+
+## **Codebook**
 
 1. Go to **Codes** under **Coding** and make sure the list of codes is open.
 
 2. From the **Share** menu, select **Export**, **Export Codebook**.
 
-![][image153]
+<img width="829" height="422" alt="image" src="https://github.com/user-attachments/assets/cdbac5dd-d274-4435-b38b-35157f0b4999" />
+
 
 3. Keep the default file name (**Codebook – Environmental Change Down East**), check **Include number of files and references**, and click **OK**.
 
-![][image154]
+<img width="624" height="643" alt="image" src="https://github.com/user-attachments/assets/fd8af6b2-51ec-46f9-9014-c00ea1adc77e" />
+
 
 4. Open the **Codebook – Environmental Change Down East.doc** file in your workshop folder. This file displays each code with its description, and the counts of files and references associated with it.
 
-![][image155]
+<img width="979" height="552" alt="image" src="https://github.com/user-attachments/assets/03d86ca3-97c7-4e8a-9910-dccb28273569" />
 
-## **Individual Code** {#individual-code}
+
+## **Individual Code** 
 
 1. Under **Codes**, select one or more codes to export.
 
 2. Right-click on the selected area and choose **Export,** **Export Codes**.
 
-![][image156]
+<img width="902" height="349" alt="image" src="https://github.com/user-attachments/assets/c2aaa44b-7684-4bbd-89c0-d7391ee35833" />
+
 
 3. In the **Export Options** pop-up, check **Summary View**, then click **OK**.
 
-![][image157]
+<img width="527" height="662" alt="image" src="https://github.com/user-attachments/assets/bce17436-f0a0-4169-a514-24b365fd3dd0" />
+
 
 4. Each selected code will be saved as a separate file in your workshop folder. For example, opening the **Water** file will display the related reference files, their locations, reference counts, and coverage.
 
-![][image158]
+<img width="979" height="508" alt="image" src="https://github.com/user-attachments/assets/0056130c-480d-4e03-942c-acbc14cb4010" />
 
-# **Resources** {#resources}
+
+# **Resources**
 
 ## **Qualitative Research Theory**
 
