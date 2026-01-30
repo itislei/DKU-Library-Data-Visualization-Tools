@@ -527,7 +527,7 @@ In Gephi, you can customize the visual appearance of your network by adjusting t
 
 12. The graph returns to the default state after clicking on the button.
 
-<img width="979" height="762" alt="image" src="https://github.com/user-attachments/assets/b69733a5-5c40-4c4b-9a0e-fec407755270" />
+<img width="958" height="747" alt="Frame 54" src="https://github.com/user-attachments/assets/652e3419-310d-424b-8ef6-7ec6876bf54e" />
 
 
 # **Filters & Statistics** 
@@ -740,6 +740,7 @@ There are multiple ways to export a project from Gephi. You can export the graph
 * [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/index.html)  
 * [UCINET Datasets](https://sites.google.com/site/ucinetsoftware/datasets)  
 * [Network Datasets](http://networkrepository.com/networks.php)
+
 
 
 
