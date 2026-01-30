@@ -525,6 +525,10 @@ In Gephi, you can customize the visual appearance of your network by adjusting t
 
 <img width="975" height="706" alt="image" src="https://github.com/user-attachments/assets/4272463a-2de0-4755-b702-8e0f00a28b95" />
 
+12. The graph returns to the default state after clicking on the button.
+
+<img width="979" height="762" alt="image" src="https://github.com/user-attachments/assets/b69733a5-5c40-4c4b-9a0e-fec407755270" />
+
 
 # **Filters & Statistics** 
 
@@ -601,71 +605,87 @@ There are multiple ways to export a project from Gephi. You can export the graph
 
 1. Click on the **Take screenshot** icon (the camera symbol), then go **Configure**.
 
+<img width="296" height="123" alt="image" src="https://github.com/user-attachments/assets/4754e767-8481-4337-b65c-33724aca3062" />
 
 
 2. Configure the saving settings, such as adjusting the export size, enabling the **Transparent Background** option, and selecting a directory for **Autosave**. Once complete, click **Ok**.
 
-![][image94]
+<img width="398" height="426" alt="image" src="https://github.com/user-attachments/assets/a615eae5-887f-43e3-a4e4-c0241b3121e3" />
+
 
 3. Go back to the toolbar and click on the **Take screenshot** icon (the camera symbol) again.
 
-![][image95]
+<img width="257" height="109" alt="image" src="https://github.com/user-attachments/assets/878768c5-9b58-4910-b1b3-e1e96ee0b8ef" />
+
 
 4. Go to the directory where saved as the saving path, you will find the image exported
 
-![][image96]
+<img width="459" height="193" alt="image" src="https://github.com/user-attachments/assets/b3944375-ada4-45cf-a020-d9f6a0e0ce8a" />
+
 
 ## **Save the graph** 
 
 1. Go to **Preview** view first. 
 
-![][image97]
+<img width="874" height="246" alt="image" src="https://github.com/user-attachments/assets/10531746-02b7-42f7-8f4f-050eb21ba4d0" />
+
 
 2. Now you will see the graph has no label or colored edges we previously set. This is because some settings have not been applied, and we can configure those using the **Preview Settings** pane. 
 
-![][image98]
+<img width="979" height="489" alt="image" src="https://github.com/user-attachments/assets/c67cfe5a-f1f2-4b3c-9c14-53c7303fe408" />
+
 
 3. For example, let’s check **Show Labels**, and change the **Font** size to **3** and click **OK**.
 
-![][image99]
+<img width="979" height="514" alt="image" src="https://github.com/user-attachments/assets/6f88858f-694f-4671-b07a-17f638b23c25" />
+
 
 4. Click the **Refresh** button at the bottom. 
 
-![][image100]
+<img width="515" height="118" alt="image" src="https://github.com/user-attachments/assets/4397fd3d-5ff7-42a8-9f2f-bd22c46188a6" />
+
 
 5. The graph is now updated with the characters’ names displayed as labels.
 
-![][image101]
+<img width="979" height="585" alt="image" src="https://github.com/user-attachments/assets/921108e1-dba6-4df3-ae01-e49a269c3da7" />
+
 
 6. Next, we will change the color of the edges. Under **Edges**, in the **Color** field, click the ellipsis (3-dot icon) next to **mixed**.
 
-![][image102]
+<img width="506" height="307" alt="image" src="https://github.com/user-attachments/assets/d47105c1-443c-4fe8-b35a-a846627df459" />
+
 
 7. In the pop-up, check **Original**, then click **OK**.
 
-![][image103]
+<img width="822" height="414" alt="image" src="https://github.com/user-attachments/assets/9f8e6f0f-4aee-4311-bee4-61d380bb5093" />
+
 
 8. Click the **Refresh** button at the bottom again. 
 
-![][image100]
+<img width="515" height="118" alt="image" src="https://github.com/user-attachments/assets/54c51f87-b851-4057-b70a-57ef7a23e08a" />
+
 
 9. Now we have essentially recreated the visualization from the **Overview** tab, even though it may not be an exact match. The preview graph is ready to be exported. To export it, click the **SVG/PDF/PNG** button next to **Export** at the bottom of the **Preview Settings** pane.
 
-![][image104]
+<img width="506" height="118" alt="image" src="https://github.com/user-attachments/assets/78542ca8-0eb5-4393-93ab-ca9078ed26a9" />
+
 
 10. In the pop-up window, choose the save location, enter a file name, and select the desired format. Then click **Save**.
 
-![][image105]
+<img width="794" height="596" alt="image" src="https://github.com/user-attachments/assets/77737222-2d14-44ee-98d2-5f45f05c6533" />
+
 
 11. The file should now be saved in the designated location.
 
-![][image106]
+<img width="834" height="343" alt="image" src="https://github.com/user-attachments/assets/342bf1d0-afba-48b3-98a9-92ba31343f77" />
+
 
 ## **Export as a website** 
 
 1. In the workspace, go to **File** \> **Export** \> **Sigma.js.template**.
 
-![][image107]
+<img width="568" height="621" alt="image" src="https://github.com/user-attachments/assets/c7d4fbb6-fa95-4c63-948f-df664033ef5d" />
+
 
 2. In the pop-up window, set the saving path and fill in the details you want to include about the nodes, edges, colors, author, and the graph title. Next, complete the short and long descriptions, and then click **OK**.  
 3. Now, go to the folder where we just saved the file \- this will be a folder called **network**.  
@@ -683,7 +703,8 @@ There are multiple ways to export a project from Gephi. You can export the graph
 
 1. In the workspace, go to **File** \> **Export** \> **Publish to the web**.
 
-![][image108]
+<img width="507" height="613" alt="image" src="https://github.com/user-attachments/assets/600f1bc9-731f-413a-8b9b-370159c49ba8" />
+
 
 2. First, complete the steps under the **Set up (to do just once)** tab.   
 3. Next, go to the **Publish** tab and click **Publish your network to the web\!**  
@@ -719,6 +740,7 @@ There are multiple ways to export a project from Gephi. You can export the graph
 * [Stanford Large Network Dataset Collection](https://snap.stanford.edu/data/index.html)  
 * [UCINET Datasets](https://sites.google.com/site/ucinetsoftware/datasets)  
 * [Network Datasets](http://networkrepository.com/networks.php)
+
 
 
 
